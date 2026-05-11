@@ -72,14 +72,18 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
+      { title: "Zuri AI" },
+      { name: "description", content: "AI Style Weaver transforms HTML into a complete visual redesign, including styles, typography, icons, and colors, with an AI-generated head." },
       { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { property: "og:title", content: "Zuri AI" },
+      { property: "og:description", content: "AI Style Weaver transforms HTML into a complete visual redesign, including styles, typography, icons, and colors, with an AI-generated head." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "Zuri AI" },
+      { name: "twitter:description", content: "AI Style Weaver transforms HTML into a complete visual redesign, including styles, typography, icons, and colors, with an AI-generated head." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/9378ab09-f484-479f-9ec8-096c6f4abccc/id-preview-f5889995--3c6a65e6-943d-46c5-8cc0-02aa5f6e18ee.lovable.app-1778536548320.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/9378ab09-f484-479f-9ec8-096c6f4abccc/id-preview-f5889995--3c6a65e6-943d-46c5-8cc0-02aa5f6e18ee.lovable.app-1778536548320.png" },
     ],
     links: [
       {
