@@ -1,6 +1,7 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { useEffect } from "react";
 import aiHead from "@/assets/ai-head.png";
+import aiVideo from "@/assets/ai-head.mp4";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -148,7 +149,18 @@ function Index() {
                   <div className="brain-ring ring-3"></div>
                   <div className="brain-ring ring-4"></div>
                 </div>
-                <img src={aiHead} alt="Zuri AI" className="ai-head-img" width={1024} height={1024} />
+                <video
+          autoPlay
+          loop
+          muted
+          playsInline
+          poster={aiHead}
+          className="ai-head-img"
+          width={1024}
+          height={1024}
+        >
+          <source src={aiVideo} type="video/mp4" />
+        </video>
                 <div className="orbit">
                   <div className="orbit-track">
                     {orbitOuter.map((n) => (
